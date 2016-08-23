@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>주정차문제없는 행복한도시-주토피아</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="${pageContext.request.contextPath}/resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -52,7 +52,7 @@
       color: #f4511e;
       font-size: 200px;
   }
-    .col-sm-3 {
+    .col-sm-4 {
       text-align: center;
       
     }
@@ -125,26 +125,22 @@
                 </div>
             </div>
            <div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <span class="glyphicon glyphicon-th-large logo-small"></span>
-      <h4>주정차 단속현황</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <h4>불법주정차 단속현황</h4>
+      <p>단속종류별,월별,요일별,시간별 불법주정차 단속건수 차트를 제공해드립니다</p>
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <span class="glyphicon glyphicon-map-marker logo-small"></span>
       <h4>CCTV확충지역분석</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p>이동형CCTV,현장단속,어린이 보호구역 등의 데이터를 분석해서 CCTV 확충이 필요한 지역을 분석해드립니다</p>
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <span class="glyphicon glyphicon glyphicon-screenshot logo-small"></span>
       <h4>주정차 심각지수분석</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p>주차장 구성현황과 확보율을 불법주정찰 적발건수와 비교분석하여 주정차 심각지수를 분석해드립니다</p>
     </div>
-    <div class="col-sm-3">
-      <span class="glyphicon glyphicon glyphicon-file logo-small"></span>
-      <h4>결과화면</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
+    
   </div>
         </div>
     </section>
@@ -168,8 +164,9 @@
                     <p>저희는 빅데이터시스템을 사용하여 공공데이터를 분석하였습니다. 그리고 Github를 통해 오픈소스로 공개함으로써, 공무원들의 행정 개선 업무에 소요되는 노력과 비용을 줄이는데 도움을 되고자합니다. </p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Goto Github
+                
+                    <a href="https://github.com/zootopiakeeper/zootopia" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"> Goto Github</i>
                     </a>
                 </div>
             </div>

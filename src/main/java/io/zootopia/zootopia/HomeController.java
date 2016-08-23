@@ -31,42 +31,41 @@ public class HomeController {
 	}
 	@RequestMapping(value = "/dashboard", method = RequestMethod.GET)
 	public String home() {
-		
-		
 		return "index";
 	}
-	
-	@RequestMapping(value = "/ver1", method = RequestMethod.GET)
-	public String home1(Locale locale, Model model) {
-		logger.info("Welcome home! The client locale is {}.", locale);
+	@RequestMapping(value = "/situation/sujeong", method = RequestMethod.GET)
+	public String situation1() {
 		
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		
-		String formattedDate = dateFormat.format(date);
-		
-		model.addAttribute("serverTime", formattedDate );
-		
-		return "home";
+		return "situ_sujeong";
 	}
-	@RequestMapping(value = "/ver2", method = RequestMethod.GET)
-	public String home2(Locale locale, Model model) {
-	
+	@RequestMapping(value = "/situation/jungone", method = RequestMethod.GET)
+	public String situation2() {
 		
-		return "home2";
+		
+		return "situ_jungone";
 	}
-	@RequestMapping(value = "/ver3", method = RequestMethod.GET)
-	public String home3(Locale locale, Model model) {
-	
+	@RequestMapping(value = "/situation/bundang", method = RequestMethod.GET)
+	public String situation3() {
 		
-		return "home3";
+		
+		return "situ_bundang";
+	}
+	@RequestMapping(value = "/analytics/cctv", method = RequestMethod.GET)
+	public String analy_cctv() {
+		
+		
+		return "analy_cctv";
 	}
 	
-	@RequestMapping(value = "/ver4", method = RequestMethod.GET)
-	public String home4(Locale locale, Model model) {
-	
+	@RequestMapping(value = "/analytics/seriousArea", method = RequestMethod.GET)
+	public String analy_area() {
 		
-		return "home4";
+		
+		return "serious_area";
 	}
+	
+	
+	
 	
 }
